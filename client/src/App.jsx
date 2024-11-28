@@ -21,6 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        Click on the Vite and React logos to learn more
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
