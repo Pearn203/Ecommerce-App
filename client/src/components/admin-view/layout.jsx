@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function AdminLayout() {
 
-consst [openSidebar,setOpenSidebar] = useState(false)
+const [openSidebar,setOpenSidebar] = useState(false)
   return (
     <div className="flex min-h-screen w-full">
       {/* admin sidebar */}
