@@ -7,7 +7,7 @@ const adminProductsRouter = require("./routes/admin/products-routes");
 
 const shopProductsRouter = require("./routes/shop/products-routes");
 const shopCartRouter = require("./routes/shop/cart-routes");
-
+const shopSearchRouter = require("./routes/shop/search-routes");
 //tạo một kết nối cơ sở dữ liệu -> Tôi cũng có thể
 //tạo một tệp riêng cho việc này và sau đó import/sử dụng tệp đó tại đây
 
@@ -40,6 +40,7 @@ app.use("/api/admin/products", adminProductsRouter);
 
 app.use("/api/shop/products", shopProductsRouter);
 app.use("/api/shop/cart", shopCartRouter);
+app.use("/api/shop/search", shopSearchRouter);
 
 
 

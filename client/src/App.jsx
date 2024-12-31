@@ -13,6 +13,7 @@ import ShoppingHome from "./pages/shopping-view/home.jsx";
 import ShoppingListing from "./pages/shopping-view/listing.jsx";
 import ShoppingCheckout from "./pages/shopping-view/checkout.jsx";
 import ShoppingAccount from "./pages/shopping-view/account.jsx";
+import SearchProducts from "./pages/shopping-view/search.jsx";
 import CheckAuth from "./components/common/check-auth.jsx";
 import UnauthPage from "./pages/unauth-page/index.jsx";
 import { useDispatch, useSelector } from "react-redux";
@@ -73,6 +74,7 @@ function App() {
           <Route path="listing" element={<ShoppingListing />} />
           <Route path="checkout" element={<ShoppingCheckout />} />
           <Route path="account" element={<ShoppingAccount />} />
+          <Route path="search" element={<SearchProducts />} />
         </Route>
         <Route path="*" element={<NotFound />} />
         <Route path="/unauth-page" element={<UnauthPage />} />
