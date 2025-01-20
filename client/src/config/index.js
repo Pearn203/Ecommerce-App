@@ -222,4 +222,5 @@ export const registerFormControls = [
       placeholder: "Enter any additional notes",
     },
   ];
+  export const apiURL = "https://ecommerce-app-backend-production-bac9.up.railway.app"
   
