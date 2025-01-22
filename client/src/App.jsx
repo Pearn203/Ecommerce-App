@@ -78,6 +78,13 @@ function App() {
         </Route>
         <Route path="*" element={<NotFound />} />
         <Route path="/unauth-page" element={<UnauthPage />} />
+        <Route
+            path="/"
+            element={
+                <Navigate to="/home" />
+            }
+              >
+        </Route>
       </Routes>
     </div>
   );
